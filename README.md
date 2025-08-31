@@ -1,6 +1,5 @@
 # hybrid-search-backend
 
-
 # 1) create .env (or export vars)
 
 export MONGO_URI="mongodb+srv://..."
@@ -22,3 +21,11 @@ uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 # 4) test
 
 curl "http://localhost:8000/search?query=water"
+
+
+python3 -m venv .venv
+
+source .venv/bin/activate
+
+python3 -m venv myproject-env
+source myproject-env/bin/activate   # (Mac/Linux)

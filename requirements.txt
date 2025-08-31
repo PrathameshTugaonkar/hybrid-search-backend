@@ -4,3 +4,7 @@ pymongo
 voyageai
 pydantic
 python-dotenv
+requests
+langchain
+langchain-openai
+reportlab
